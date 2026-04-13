@@ -83,9 +83,11 @@ npm run dev
 | DELETE | `/api/produtos/:id` | Deletar produto                                 |
 
 **Exemplos de uso dos filtros:**
+```
 GET /api/produtos?categoria_id=1          → Produtos da categoria 1
 GET /api/produtos?ativo=1                 → Apenas produtos ativos
 GET /api/produtos?categoria_id=2&ativo=1  → Produtos ativos da categoria 2
+```
 
 ## Regras de negócio
 
